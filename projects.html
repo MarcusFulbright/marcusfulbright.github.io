@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <style>
+        body {
+            background-image: url("./images/nashville_city.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: white;
+            background-attachment: fixed;
+        }
+
+        h4 {
+            margin-top: 2%;
+        }
+
+        p {
+            font-size: 1.2em;
+        }
+
+        .copy {
+            background: rgba(12, 12, 12,.8);
+            padding: 2.5%;
+            margin-top: 1%;
+            margin-bottom: 3%;
+            line-height: 1.5em;
+        }
+        .contact-list li {
+            list-style: none;
+            text-align: right;
+        }
+
+        .header {
+
+            color: floralwhite;
+        }
+
+        .buttons {
+            margin-top: 20px;
+        }
+
+        .row.header {
+            margin-top: 2%;
+        }
+
+        .header-box {
+            background: rgba(12, 12, 12, 0.49);
+            text-align: center;
+            border: thick;
+            border-style: solid;
+            border-color: white;
+            padding: 1.5%;
+        }
+
+        .row.header {
+            margin-top: 2%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: white;
+            background-attachment: fixed
+        }
+
+        .btn {
+            margin: 10px;
+            background: rgba(12, 12, 12, 0.55);
+        }
+
+        .center-text {
+            text-align: center;
+        }
+
+        .footer{
+            border-style: solid;
+            border-color: white;
+            border-width: 2px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin-bottom: 3%;
+        }
+
+    </style>
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row header">
+        <div class="col-md-5 offset-md-3 header-box">
+            <h1 class="text-center">Marcus Fulbright</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3 offset-md-4 center-text buttons">
+            <div class="btn-group" role="group" aria-label="Navigation">
+                <a href="index.html" class="btn btn-outline-info btn-lg">Home</a>
+                <a href="resume.html" class="btn btn-outline-info btn-lg">Resume</a>
+                <a href="#" class="btn btn-outline-info btn-lg active">Recent Projects</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="copy">
+        <div class="row">
+            <div class="col">
+                <h2>Recent Projects</h2>
+                <h4><a href="https://www.mystorybrand.com"><u>MyStoryBrand</u></a></h4>
+                <p>
+                    Designed, built, and deployed a REST API that powers an independent React.js UI. This service includes a pay-wall (powered by Stripe), and used JWT tokens for auth. Most API actions fall into CRUD patterns.
+                <dl>
+                    <dt>Completed for StoryBrand while working at ATATA, 2017</dt>
+                </dl>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h4><a href="https://www.clarifyyourmessage.com"><u>ClarifyYourMessage</u></a></h4>
+                <p>
+                    Designed, built, and deployed a CMS system that includes profile management, and searching through profiles which includes a zip code radius field back by a haversine implementation. This product also includes a referral system that integrations with a clients existing WordPress site.
+                <dl>
+                    <dt>Completed for StoryBrand while working at ATATA, 2017</dt>
+                </dl>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h4><a href="https://www.entreleadership.com/e1dlive"><u>EntreLeadership 1 Day</u></a></h4>
+                <p>
+                    Built a live streaming platform inside an existing Rails Application. This includes handling multiple ticket tiers, authorization to view the stream, and unlocking extra features based on ticket type. This scaled up to handle ~10k concurrent viewers for the first ever live stream of an Entreleadership event.
+                <dl>
+                    <dt>Completed for Dave Ramsey while working at ATATA, 2016</dt>
+                </dl>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6 offset-md-3 center-text footer">
+            <a href="https://github.com/MarcusFulbright"><img src="./images/Octocat.png" style="height: 128px; width: 128px;"></a>
+            <a href="https://www.linkedin.com/in/marcus-fulbright-28a3089/"><img src="./images/In-2C-128px-R.png"></a>
+            <a href="https://twitter.com/MarcusFulbright"><img src="./images/Twitter_Social_Icon_Circle_Color.png" style="height: 128px; width: 128px;"></a>
+            <a href="mailto:fulbright.marcus@gmail.com" target="_top"><img src="./images/Dtafalonso-Android-Lollipop-Gmail.ico" style="height: 128px; width: 128px"></a>
+        </div>
+    </div>
+</div>
+
+<!-- jQuery first, then Tether, then Bootstrap JS. -->
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+</body>
+</html>
